@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chaitanya — Cloud Data & Backend Engineer</title>
+  <meta name="description" content="Chaitanya — Cloud Data & Backend Engineer with 11+ years in IT and 5 years on Google Cloud. GCP, Java, Apache Beam, Spark.">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <script src="js/theme-init.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="brand">Chaitanya<span>.</span></a>
+      <nav id="menu" class="menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme" class="icon-btn" aria-label="Toggle dark mode">◐</button>
+        <button id="burger" class="icon-btn burger" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="eyebrow">Cloud Data &amp; Backend Engineer</p>
+        <h1>I build data pipelines on Google Cloud that run reliably at terabyte scale.</h1>
+        <p class="lead">11+ years in IT and 5 years on GCP, designing batch and streaming pipelines with BigQuery, Dataflow (Apache Beam), Dataproc (Spark) and Airflow, plus the Spring Boot microservices that sit on top of them.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See my work</a>
+          <a class="btn" href="resume/Chaitanya_DataEngineer.docx" download>Download resume</a>
+        </div>
+        <ul class="tags">
+          <li>GCP</li><li>Java</li><li>Apache Beam</li><li>Spark</li><li>BigQuery</li><li>Kafka</li>
+        </ul>
+      </div>
+      <div class="hero-photo">
+        <img src="images/profile.jpg" alt="Portrait of Chaitanya" width="360" height="450">
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="wrap stats">
+      <div><strong>11+</strong><span>years in IT</span></div>
+      <div><strong>5</strong><span>years on Google Cloud</span></div>
+      <div><strong>~10 TB</strong><span>transactions processed per day</span></div>
+      <div><strong>&lt;5 s</strong><span>fraud detection latency</span></div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="wrap section">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div>
+          <p>I started as a Java developer on payment and billing systems for Citi Bank and AT&amp;T. Over time I moved into data engineering, and I now build end-to-end pipelines on Google Cloud: moving on-premise databases into BigQuery, streaming events through Pub/Sub and Dataflow, and running large PySpark jobs on Dataproc and Databricks.</p>
+          <p>Because of that Java background, I can also build the services around the data: Spring Boot microservices, Kafka-based transaction tracking, and moving monolithic applications to microservices using the SAGA and Strangler patterns.</p>
+          <p>I have worked in banking, payments, telecom, retail analytics, supply chain and trade finance. I follow Agile/Scrum with TDD/BDD, set Spark development standards for my teams, and mentor junior engineers.</p>
+        </div>
+        <ul class="facts">
+          <li><span>Domains</span>Banking · SCM · Telecom · Trade Finance · Warehouse</li>
+          <li><span>Education</span>MCA, Osmania University, Hyderabad</li>
+          <li><span>Ways of working</span>Agile/Scrum · TDD/BDD · Pair programming</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="wrap section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="card"><h3>Languages</h3><p>Java, Python, SQL, Shell Scripting</p></div>
+        <div class="card"><h3>Frameworks &amp; Libraries</h3><p>Spring, Spring Boot, Hibernate, Kafka, Spark, Apache Beam</p></div>
+        <div class="card"><h3>Google Cloud</h3><p>BigQuery, Cloud Storage, Pub/Sub, Dataflow, Dataproc, Cloud Composer, Cloud Functions</p></div>
+        <div class="card"><h3>ETL &amp; Big Data</h3><p>Airflow, Sqoop, Hadoop (HDFS, Hive), Databricks (Delta Lake)</p></div>
+        <div class="card"><h3>Databases &amp; DWH</h3><p>Oracle, MySQL, Hive, Cloud SQL</p></div>
+        <div class="card"><h3>Containers</h3><p>Docker, Kubernetes (GKE)</p></div>
+        <div class="card"><h3>DevOps &amp; CI/CD</h3><p>Jenkins, Maven, Git, Bitbucket, Terraform</p></div>
+        <div class="card"><h3>Monitoring</h3><p>Prometheus, Grafana, Stackdriver, Dynatrace</p></div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="wrap section">
+      <h2>Featured projects</h2>
+      <div class="projects">
+        <article class="card project">
+          <p class="meta">Banking · 2024–25</p>
+          <h3>International Funds Transfer &amp; Compliance</h3>
+          <p>A platform for cross-border transfers, FX conversion, settlement, and AML/KYC compliance checks.</p>
+          <ul>
+            <li>Secure GCP pipelines processing <b>~10 TB/day</b></li>
+            <li>Beam streaming on Dataflow improved AML rule accuracy by <b>30%</b></li>
+            <li>PySpark settlement reconciliation cut manual work by <b>40%</b></li>
+          </ul>
+          <p class="stack">Dataflow · BigQuery · Composer · Kafka · Spring Boot</p>
+        </article>
+        <article class="card project">
+          <p class="meta">Payments · VISA</p>
+          <h3>Real-time Fraud Detection</h3>
+          <p>Identifies genuine and fraudulent card transactions in near real time.</p>
+          <ul>
+            <li>Millions of transactions/day with <b>&lt;5 s</b> latency</li>
+            <li>Beam windowing and triggers improved fraud detection accuracy by <b>28%</b></li>
+            <li>BigQuery partitioning cut transaction lookup time by <b>45%</b></li>
+          </ul>
+          <p class="stack">Pub/Sub · Dataflow · Dataproc · Kafka</p>
+        </article>
+        <article class="card project">
+          <p class="meta">Retail analytics · NielsenIQ</p>
+          <h3>PrecisionSolutions</h3>
+          <p>Combined two products into one platform for customer segmentation, market analysis and demand forecasting.</p>
+          <ul>
+            <li>Segmentation models improved retailer insight accuracy by <b>32%</b></li>
+            <li>Self-service dashboards cut reporting turnaround by <b>50%</b></li>
+            <li>Streaming POS data: Pub/Sub → Dataflow → BigQuery</li>
+          </ul>
+          <p class="stack">BigQuery · Beam · PySpark · Composer</p>
+        </article>
+        <article class="card project">
+          <p class="meta">Enterprise data · Walmart</p>
+          <h3>Data Quality Platform</h3>
+          <p>Validates, reconciles and profiles business data across systems, running automated data quality rules.</p>
+          <ul>
+            <li>Java rule engine integrated with Spark/PySpark</li>
+            <li>Spring Boot REST APIs for rule management</li>
+            <li>Batch and streaming Beam pipelines loading results into BigQuery</li>
+          </ul>
+          <p class="stack">Dataproc · Dataflow · Spring Boot · Airflow</p>
+        </article>
+        <article class="card project">
+          <p class="meta">Telecom · T-Mobile</p>
+          <h3>Churn &amp; Network Analytics</h3>
+          <p>Processes network usage and customer activity data for churn prediction and service quality monitoring.</p>
+          <ul>
+            <li>Call detail records (~5 TB/day) aggregated on Dataproc</li>
+            <li>BigQuery query performance improved by <b>40%</b></li>
+            <li>Prometheus/Grafana alerting sped up incident response by <b>25%</b></li>
+          </ul>
+          <p class="stack">Pub/Sub · Dataflow · PySpark · Kafka</p>
+        </article>
+        <article class="card project">
+          <p class="meta">Supply chain · Schneider Electric</p>
+          <h3>CSDE Purchase Analytics</h3>
+          <p>One analytics platform for millions of product purchase transactions from multiple sources.</p>
+          <ul>
+            <li>ETL handling <b>~2 TB/day</b> into BigQuery</li>
+            <li>Query costs cut by <b>25%</b>; reconciliation errors cut by <b>30%</b></li>
+            <li>Delta Lake time-series analysis of sales trends</li>
+          </ul>
+          <p class="stack">Beam · Dataproc · Delta Lake · Composer</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="wrap section">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li><time>Oct 2025 – Aug 2026</time><h3>Google Data Engineer · CareerNet</h3><p>Walmart (via Cognizant) — Data Quality Platform</p></li>
+        <li><time>Dec 2024 – Feb 2025</time><h3>Google Data Engineer · Aaxeleron</h3><p>Cognizant — International Funds Transfer &amp; Compliance</p></li>
+        <li><time>Sep 2023 – Jun 2024</time><h3>Google Data Engineer · Amantya Technologies</h3><p>NielsenIQ — PrecisionSolutions</p></li>
+        <li><time>Jun 2022 – Nov 2022</time><h3>Google Data Engineer · Foray Software</h3><p>VISA — Fraud detection platform</p></li>
+        <li><time>Aug 2021 – Mar 2022</time><h3>Data Engineer · OTSI</h3><p>Wipro / T-Mobile — Telecom analytics</p></li>
+        <li><time>Aug 2017 – Nov 2020</time><h3>Data Engineer · Capgemini</h3><p>Schneider Electric — CSDE analytics platform</p></li>
+        <li><time>Mar 2016 – Apr 2017</time><h3>Senior Java Developer · CSC</h3><p>AT&amp;T customer care &amp; billing — 25% faster response times</p></li>
+        <li><time>Aug 2015 – Mar 2016</time><h3>Senior Java Developer · SCORG International</h3><p>AT&amp;T customer care &amp; billing — Spring MVC, SOAP/REST, L2/L3 support</p></li>
+        <li><time>Dec 2013 – Oct 2014</time><h3>Java Developer · Sonata</h3><p>RR Donnelley — document management &amp; reporting, 40% less manual effort</p></li>
+        <li><time>Sep 2010 – Oct 2013</time><h3>Java Developer · Polaris</h3><p>Citi Bank — multi-currency payments, finance batch jobs running 30% faster</p></li>
+      </ol>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="wrap section contact">
+      <h2>Let's talk</h2>
+      <p>Open to Data Engineering and Cloud Backend roles. The quickest way to reach me is email.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:gcpchaitanya79@gmail.com">gcpchaitanya79@gmail.com</a>
+        <a class="btn" href="https://github.com/gcpchaitanya79" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>© <span id="year"></span> Chaitanya</p>
+    <a href="#top" class="to-top" aria-label="Back to top">↑</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
